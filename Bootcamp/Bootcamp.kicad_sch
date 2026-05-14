@@ -1646,6 +1646,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LibrairieBootcamp:PWR_FLAG"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.27 -5.08) (xy 0 -6.35) (xy 1.27 -5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LibrairieBootcamp:Quartz"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2171,6 +2269,12 @@
 		(uuid "2454e9d8-ddc3-45bf-af1a-b652f4769437")
 	)
 	(junction
+		(at 58.42 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "334eccfc-d119-4664-a5ba-625962b543b9")
+	)
+	(junction
 		(at 254 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2193,6 +2297,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8065744-9f28-4255-91db-721e368267b7")
+	)
+	(junction
+		(at 57.15 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d11901bf-7abc-4823-8694-91dd1502d23f")
 	)
 	(junction
 		(at 128.27 135.89)
@@ -2628,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 189.23) (xy 53.34 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c902906-ad94-43bc-9bd9-8e3f57a251bf")
+	)
+	(wire
+		(pts
 			(xy 254 58.42) (xy 254 50.8)
 		)
 		(stroke
@@ -2685,6 +2805,16 @@
 			(type default)
 		)
 		(uuid "64f52175-97ed-452d-b817-5de28c523bd4")
+	)
+	(wire
+		(pts
+			(xy 57.15 110.49) (xy 54.61 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66400a2e-449f-41bb-970a-89f25f9cd4b1")
 	)
 	(wire
 		(pts
@@ -2928,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 110.49) (xy 54.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0dfaa3-6965-419d-a0b8-2ab054dc6d46")
+	)
+	(wire
+		(pts
 			(xy 201.93 107.95) (xy 205.74 107.95)
 		)
 		(stroke
@@ -2975,6 +3115,16 @@
 			(type default)
 		)
 		(uuid "b43bbb7d-f4b7-48a1-894d-5dc19dd01f54")
+	)
+	(wire
+		(pts
+			(xy 58.42 185.42) (xy 53.34 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b942a395-a0d2-4f94-889a-7b90b7670d13")
 	)
 	(wire
 		(pts
@@ -3135,6 +3285,16 @@
 			(type default)
 		)
 		(uuid "e79b2065-a8da-494c-844d-5a8c3f2f13d9")
+	)
+	(wire
+		(pts
+			(xy 53.34 185.42) (xy 53.34 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd9c695-eb62-4884-98d3-aa4d3773002c")
 	)
 	(wire
 		(pts
@@ -6007,6 +6167,85 @@
 		)
 	)
 	(symbol
+		(lib_id "LibrairieBootcamp:PWR_FLAG")
+		(at 54.61 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af145c85-368d-4688-baf9-c1119255076b")
+		(property "Reference" "#FLG02"
+			(at 54.864 102.362 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68999502-faaa-436e-8ecb-fe9836ed3e45")
+		)
+		(instances
+			(project "Bootcamp"
+				(path "/6f598f59-8b55-4112-a884-030ae0f870a8"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LibrairieBootcamp:BoutonPoussoir")
 		(at 240.03 50.8 0)
 		(unit 1)
@@ -6489,6 +6728,85 @@
 			(project "Bootcamp"
 				(path "/6f598f59-8b55-4112-a884-030ae0f870a8"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibrairieBootcamp:PWR_FLAG")
+		(at 49.53 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c188a1-06d6-427d-857b-508b0950205d")
+		(property "Reference" "#FLG01"
+			(at 49.784 182.372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9fa5375-7131-4b36-aa58-7d0594770e43")
+		)
+		(instances
+			(project "Bootcamp"
+				(path "/6f598f59-8b55-4112-a884-030ae0f870a8"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
