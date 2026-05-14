@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "LibrairieBootcamp") (type "KiCad") (uri "/home/rbalazs/Desktop/ElectronicDesign/LibrairieBootcamp.kicad_sym") (options "") (descr ""))
+)
